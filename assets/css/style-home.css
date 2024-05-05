@@ -1,0 +1,151 @@
+/*Plano de fundo*/
+body{
+	/*background-color:#001921ff;*/
+	background: linear-gradient(#001921ff, #044C63);
+	width: 100vw; /* 100% da largura da viewport */
+    height: 100vh; /* 100% da altura da viewport */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	font-family:"Varela Round";
+	color: #f2f2f2;
+
+}
+
+/* Cabeçalho */
+.header {
+	padding: 20px;
+	text-align: center;
+	margin-bottom:20px;
+}
+/*Logotipo*/
+.logo{
+	width:128px;
+	margin-bottom:10px;
+}  
+/* Menu - barra de navegação*/
+
+/* estilo da barra de navegação */
+.topnav {
+	margin:15px;
+	overflow: hidden; /* especifica o que acontece se o conteúdo de um elemento excede seu tamanho de caixa. hidden: Esta valor faz com que o conteúdo extra seja ocultado e não seja acessível, criando assim um recorte no conteúdo.*/
+
+}
+
+/* estilo dos links na barra de navegação */
+.topnav a {
+	cursor: pointer;
+	color: #f2f2f2;
+	display: inline-block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	justify-content: center; /* alinha horizontalmente */
+	align-items: center; /* alinha verticalmente */
+}
+
+/* Muda a cor quando o mouse estiver sobre */
+.topnav a:hover {
+	/*background-color: #ddd;*/
+	color: black;
+}
+
+header section p {
+	text-align:justify;
+	width:75%;
+	margin:auto;
+	hyphens: auto; /* aplica a hifenização automática */
+	
+
+}
+
+/* Main  jogos - Grid*/
+.grid-container {
+	
+  display: grid;
+  justify-content: center;
+  grid-template-columns:50% 50%;
+  gap: 10px;
+  padding: 10px;
+  margin:auto;
+  
+
+}
+
+.grid-container > div{
+  /*background-color: rgba(255, 255, 255, 0.8); 
+  border: 1px solid black;*/
+  text-align: center;
+}
+
+.grid-container h2{
+	font-size:100%;
+}
+
+.jogocapa {
+	width:50%;
+	border-radius: 8px;
+}
+ 
+.btn_play{
+	background-color:#05BEF9;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+main{
+	margin-bottom:20%;
+
+	
+	
+
+}
+
+footer{
+	text-align:center;
+}
+
+.footer {
+	display: flex;
+    justify-content: center; /* alinha horizontalmente */
+    align-items: center; /* alinha verticalmente */
+	text-align:center;
+
+
+}
+
+footer img{
+	margin:5px;
+	width:32px;
+}
+
+.footer > a {
+	text-decoration: none;
+	color: #f2f2f2;
+
+	
+}
+
+#backToTop {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+        border: none;
+		outline: none;
+        color: white;
+        cursor: pointer;
+		border-radius: 50%;
+		width:5%;
+        }
+
+#backToTop:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        }
