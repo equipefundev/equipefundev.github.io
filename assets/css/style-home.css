@@ -59,6 +59,11 @@ header section p {
 }
 
 /* Main  jogos - Grid*/
+main{
+	margin:auto;
+	margin-bottom:20%;
+}
+
 .grid-container {
 	
   display: grid;
@@ -99,13 +104,6 @@ header section p {
 	cursor: pointer;
 }
 
-main{
-	margin-bottom:20%;
-
-	
-	
-
-}
 
 footer{
 	text-align:center;
